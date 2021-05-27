@@ -6,6 +6,6 @@ export const Container = styled.View`
   align-items: center;
   background-color: #999;
 `;
-export const Title = styled.View`
+export const Title = styled.Text`
  
 `;
