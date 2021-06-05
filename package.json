@@ -8,6 +8,8 @@
     "test": "jest"
   },
   "dependencies": {
+    "@types/axios": "^0.14.0",
+    "axios": "^0.21.1",
     "expo": "~41.0.1",
     "expo-barcode-scanner": "^10.1.2",
     "expo-splash-screen": "~0.10.2",
