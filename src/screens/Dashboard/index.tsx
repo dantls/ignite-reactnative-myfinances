@@ -6,7 +6,6 @@ export function Dashboard(){
     <Container>
       <Title>Dashboard</Title>
     </Container>
-
   )
 }
 

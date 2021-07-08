@@ -6,7 +6,7 @@ import { Dashboard } from './src/screens/Dashboard';
 
 export default function App() {
   return (
-    <ThemeProvider theme={theme.light}>
+    <ThemeProvider theme={theme.dark}>
       <Dashboard />
     </ThemeProvider>
   );
