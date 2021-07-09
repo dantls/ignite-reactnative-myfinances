@@ -1,3 +1,5 @@
+import fonts from "./fonts";
+
 export default {
   colors:{
     primary: '#5636D3',
@@ -15,6 +17,7 @@ export default {
     title: '#353F5F',
     text: '#F0F2F5',
     background: '#353F5F'
-  }
+  },
+  fonts
 }
 
