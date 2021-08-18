@@ -8,7 +8,8 @@ import {
   Avatar,
   User,
   UserGreeting,
-  UserName
+  UserName,
+  Icon
 } from './styles';
 
 export function Header(){
@@ -25,6 +26,7 @@ export function Header(){
             <UserName>Danilo</UserName>
           </User>
         </UserInfo>
+        <Icon name="power"/>
       </Wrapper>
     </Container>
   )
