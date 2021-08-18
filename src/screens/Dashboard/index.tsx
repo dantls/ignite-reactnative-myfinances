@@ -9,9 +9,24 @@ export function Dashboard(){
       <Header />
 
       <HighlightCards>
-        <HighlightCard />
-        <HighlightCard />
-        <HighlightCard />
+        <HighlightCard 
+          title="Entradas"
+          amount="R$ 17.000,00"
+          lastTransaction="Última entrada dia 13 de agosto"
+          type="up"
+        />
+        <HighlightCard 
+          title="Saídas"
+          amount="R$ 5.000,00"
+          lastTransaction="Última entrada dia 12 de agosto"
+          type="down"
+        />
+        <HighlightCard 
+          title="Total"
+          amount="R$ 12.000,00"
+          lastTransaction="01 a 06 de agosto"
+          type="total"
+        />
       </HighlightCards>
     </Container>
   )
