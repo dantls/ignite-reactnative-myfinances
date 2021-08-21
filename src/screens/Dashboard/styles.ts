@@ -35,10 +35,9 @@ export const TransactionList = styled(
   FlatList as new () => FlatList<DataListProps>
   ).attrs(
   {
-    showsHorizontalScrollIndicator: false,
+    showsVerticalScrollIndicator: false,
     contentContainerStyle:{
       paddingBottom: getBottomSpace()
     }
   }
-)`
-`;
+)``;
