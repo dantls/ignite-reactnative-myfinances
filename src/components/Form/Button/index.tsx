@@ -1,16 +1,16 @@
 import React from 'react';
-import {RectButtonProps} from 'react-native-gesture-handler';
+import {TouchableOpacityProps} from 'react-native';
 import { Container , Title} from './styles';
 
 type DataButton  = {
   title: string;
 } 
 
-type Props = DataButton & RectButtonProps;
+type Props = DataButton & TouchableOpacityProps;
 
 export function Button({ title, ...rest}:Props){
   return (
-    <Container {...rest}>
+    <Container  {...rest}>
       <Title>
         {title}
       </Title>
