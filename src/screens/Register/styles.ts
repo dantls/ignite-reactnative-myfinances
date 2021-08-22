@@ -1,7 +1,10 @@
-import { RFPercentage, RFValue } from 'react-native-responsive-fontsize';
+import { RFValue } from 'react-native-responsive-fontsize';
 import styled from 'styled-components/native';
 
-export const Container = styled.View``;
+export const Container = styled.View`
+  background-color: ${({theme})=> theme.colors.background};
+  flex: 1;
+`;
 
 export const Header = styled.View`
   background-color: ${({theme})=> theme.colors.primary};
@@ -17,3 +20,10 @@ export const Title = styled.Text`
   color: ${({theme})=> theme.colors.shape};
   padding-bottom: 20px;
 `;
+export const Form = styled.View`
+  flex: 1;
+  width: 100%;
+  justify-content: space-between;
+  padding: ${RFValue(24)}px;
+`;
+export const Fields = styled.View``;
